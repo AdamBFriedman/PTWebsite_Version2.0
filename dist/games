@@ -1,0 +1,57 @@
+<html>
+<body class="bg-primary">
+    
+<!-- Header -->
+<div class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <h6><a href="/">Login</a></h6>
+        <h3 id="navName"></h3>
+        <div id="hideNav" class="container navbarContainer">
+            <a href="/home" class="navbar-brand">
+                <h3 class="d-inline align-middle">Home</h3>
+            </a>
+            <a href="/tokens" class="navbar-brand">
+                <h3 class="d-inline align-middle">Tokens</h3>
+            </a>
+            <a href="/about" class="navbar-brand">
+                <h3 class="d-inline align-middle">About</h3>
+            </a>
+            <a href="/games" class="navbar-brand">
+                <h3 class="d-inline align-middle">Games</h3>
+            </a>
+            <a href="/support" class="navbar-brand">
+                <h3 class="d-inline align-middle">Support</h3>
+            </a>
+        </div>
+        <h6><a id="logout" href="/">Logout</a></h6>
+    </div>
+
+ 
+
+
+<div class="products row"></div>
+
+    
+    <div class="shopping-cart">
+      <div class="shopping-cart-head">
+        <span class="product-quantity">0</span> Product(s) in Cart
+      </div>
+      <ul class="shopping-cart-list">
+      </ul>
+      <div class="cart-buttons">
+        <a href="#0" class="button empty-cart-btn">Empty</a>
+        <a href="#0" class="button cart-checkout">Checkout - <span class="total-price">$0</span></a>
+      </div>
+    </div>
+
+            <!-- Footer -->
+            <footer class="py-5 bg-dark">
+                    <div class="container">
+                      <p class="m-0 text-center text-white">Copyright &copy; PlayTable 2019</p>
+                    </div>
+                    <!-- /.container -->
+                  </footer>
+                  <script type="text/javascript" src="/games-bundle.js"></script></body>
+    </html>
+
+
+    

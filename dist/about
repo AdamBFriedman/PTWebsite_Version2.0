@@ -1,0 +1,129 @@
+<html>
+  <body class="bg-primary">
+
+<!-- Header -->
+<div class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <h6><a href="/">Login</a></h6>
+        <h3 id="navName"></h3>
+        <div id="hideNav" class="container navbarContainer">
+            <a href="/home" class="navbar-brand">
+                <h3 class="d-inline align-middle">Home</h3>
+            </a>
+            <a href="/tokens" class="navbar-brand">
+                <h3 class="d-inline align-middle">Tokens</h3>
+            </a>
+            <a href="/about" class="navbar-brand">
+                <h3 class="d-inline align-middle">About</h3>
+            </a>
+            <a href="/games" class="navbar-brand">
+                <h3 class="d-inline align-middle">Games</h3>
+            </a>
+            <a href="/support" class="navbar-brand">
+                <h3 class="d-inline align-middle">Support</h3>
+            </a>
+        </div>
+        <h6><a id="logout" href="/">Logout</a></h6>
+    </div>
+
+<!-- Portfolio -->
+<header class="bg-primary text-center py-5 mb-4">
+        <div class="container">
+          <h1 class="font-weight-light text-white">Meet the Team</h1>
+        </div>
+      </header>
+      
+      <!-- Page Content -->
+      <div class="container text-dark">
+      
+          <div class="row">
+          <!-- Team Member 1 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/johnDempsey.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">John Dempsey</h5>
+                <div class="card-text text-black-50">Founding Director</div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 2 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/shaneZhu.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Shane Zhu</h5>
+                <div class="card-text text-black-50">General Manager</div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 3 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/joeBrogno.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Joe Brogno</h5>
+                <div class="card-text text-black-50">Creative Director</div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 4 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/yeDeng.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Ye Deng</h5>
+                <div class="card-text text-black-50">Software Director</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+      
+        <!-- Second row -->
+      
+        <div class="row">
+          <!-- Team Member 5 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/shermanMeredith.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Sherman Meredith</h5>
+                <div class="card-text text-black-50">Lead Blockchain Engineer</div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 6 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/jiaqiWang.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Jiaqi Wang</h5>
+                <div class="card-text text-black-50">SDK Architect</div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 7 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="/images/samLee.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Sam Lee</h5>
+                <div class="card-text text-black-50">VP of Product</div>
+              </div>
+            </div>
+          </div>
+      
+        <!-- /.row -->
+      
+      </div>
+
+                  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; PlayTable 2019</p>
+        </div>
+        <!-- /.container -->
+      </footer>
+      
+<script type="text/javascript" src="/about-bundle.js"></script></body>
+</html>

@@ -1,0 +1,113 @@
+<html>
+
+<!-- Header -->
+    <div class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <h6><a href="/">Login</a></h6>
+        <h3 id="navName"></h3>
+        <div id="hideNav" class="container navbarContainer">
+            <a href="/home" class="navbar-brand">
+                <h3 class="d-inline align-middle">Home</h3>
+            </a>
+            <a href="/tokens" class="navbar-brand">
+                <h3 class="d-inline align-middle">Tokens</h3>
+            </a>
+            <a href="/about" class="navbar-brand">
+                <h3 class="d-inline align-middle">About</h3>
+            </a>
+            <a href="/games" class="navbar-brand">
+                <h3 class="d-inline align-middle">Games</h3>
+            </a>
+            <a href="/support" class="navbar-brand">
+                <h3 class="d-inline align-middle">Support</h3>
+            </a>
+        </div>
+        <h6><a id="logout" href="/">Logout</a></h6>
+    </div>
+
+<!-- Portfolio -->
+<header class="bg-primary py-5 mb-5 text-white">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <!-- Portfolio Item Heading -->
+              <h1 class="my-4">Welcome to PlayTable
+                <small class="text-warning">We bring blockchain to life</small>
+              </h1>
+              <p class="lead mb-5 text-white-50">Congratulations! You have been chosen to participate in the Beta launch.</p>
+            </div>
+          </div>
+          <div class="row text-center text-white">
+            <div class="col md-4 bg-dark m-2 p-2">
+              <h5 class="text-warning">Your first mission:</h5>
+              <h6>Create Username</h6>
+              <div class="form-group">
+                <label for="username">Update your Username by typing it in below.</label>
+      
+                <input id="newUsername" type="text" class="form-control" placeholder="Enter New Username">
+      
+                <button id="changeUsername">Click to update</button>
+      
+              </div>
+            </div>
+      
+            <div class="col md-4 bg-dark m-2 p-2">
+              <h5 class="text-warning">Your second mission:</h5>
+              <h6>Choose your Gaming Style</h6>
+              <div class="form-group">
+                <div class="form-group">
+                  <label for="selfEvaluation">What kind of gamer are you?</label>
+                  <select id="gamingStyle" name="Gaming Style">
+                    <option value="newbie">newbie</option>
+                    <option value="hobbyist">hobbyist</option>
+                    <option value="geek">geek</option>
+                    <option value="pro">pro</option>
+                  </select>
+                  <button id="changeEvaluation">Click to update</button>
+                </div>
+      
+              </div>
+            </div>
+      
+            <div class="col md-4 bg-dark m-2 p-2">
+              <h5 class="text-warning">Your third mission:</h5>
+              <h6>Update Address</h6>
+              <div class="form-group">
+                <label>Update your Address by clicking below.</label>
+      
+                <a href="/address"><button>Click Here</button></a>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div class="row text-white">
+        <div class="col md-4 bg-dark m-2 p-2">
+          <h4 id="displayName" class="text-center">Welcome to PlayTable! Let's get you set up with a Username below!</h4>
+          <ul>
+            <p id="ptcBalance"></p>
+            <p id="username"></p>
+            <p id="email"></p>
+            <p id="self_evaluation"></p>
+            <p id="gamesList"></p>
+          </ul>
+        </div>
+      
+        <div class="col md-4 bg-dark m-2 p-2 text-danger">
+          <p>Dev Purposes Only - will delete</p>
+          <p id="playerID"></p>
+          <p id="token"></p>
+          <a href="/test2">Testing... Don't click unless you were Bar Mitzvah'd under Rabbi Levinson</a>
+        </div>
+      </div>
+
+            <!-- Footer -->
+  <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; PlayTable 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+</html><script type="text/javascript" src="/home-bundle.js"></script>

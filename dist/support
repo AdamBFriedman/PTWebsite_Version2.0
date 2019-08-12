@@ -1,0 +1,78 @@
+<html>
+
+<!-- Header -->
+<div class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <h6><a href="/">Login</a></h6>
+        <h3 id="navName"></h3>
+        <div id="hideNav" class="container navbarContainer">
+            <a href="/home" class="navbar-brand">
+                <h3 class="d-inline align-middle">Home</h3>
+            </a>
+            <a href="/tokens" class="navbar-brand">
+                <h3 class="d-inline align-middle">Tokens</h3>
+            </a>
+            <a href="/about" class="navbar-brand">
+                <h3 class="d-inline align-middle">About</h3>
+            </a>
+            <a href="/games" class="navbar-brand">
+                <h3 class="d-inline align-middle">Games</h3>
+            </a>
+            <a href="/support" class="navbar-brand">
+                <h3 class="d-inline align-middle">Support</h3>
+            </a>
+        </div>
+        <h6><a id="logout" href="/">Logout</a></h6>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="w-50">
+            <h1>Let's build something amazing.</h1>
+            <small>PlayTable</small>
+            <div class="col">
+                <ul>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                </ul>
+            </div>
+    
+                    <div class="col">
+                <ul>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                </ul>
+            </div>
+    
+                    <div class="col">
+                <ul>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                    <li>Testing</li>
+                </ul>
+            </div>
+    
+        </div>
+        <div class="w-50 h-100">
+            <img src="/images/contact.png" alt="">
+        </div>
+        <a href="/home">Let's Go Home</a>
+        </div>
+    </div>
+
+                <!-- Footer -->
+  <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; PlayTable 2019</p>
+        </div>
+        <!-- /.container -->
+      </footer>
+
+</html>
+
+
+<script type="text/javascript" src="/support-bundle.js"></script>

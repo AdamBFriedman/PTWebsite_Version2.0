@@ -1,0 +1,115 @@
+<html>
+<body class="bg-primary text-white">
+    
+<!-- Header -->
+<div class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <h6><a href="/">Login</a></h6>
+        <h3 id="navName"></h3>
+        <div id="hideNav" class="container navbarContainer">
+            <a href="/home" class="navbar-brand">
+                <h3 class="d-inline align-middle">Home</h3>
+            </a>
+            <a href="/tokens" class="navbar-brand">
+                <h3 class="d-inline align-middle">Tokens</h3>
+            </a>
+            <a href="/about" class="navbar-brand">
+                <h3 class="d-inline align-middle">About</h3>
+            </a>
+            <a href="/games" class="navbar-brand">
+                <h3 class="d-inline align-middle">Games</h3>
+            </a>
+            <a href="/support" class="navbar-brand">
+                <h3 class="d-inline align-middle">Support</h3>
+            </a>
+        </div>
+
+        <h6><a id="logout" href="/">Logout</a></h6>
+    </div>
+        <div id="testVar">This is a test - please ignore</div>
+
+        <h1 class="my-4">Purchase PlayTable Tokens &#40;PTC&#41;
+            <small class="text-warning">You need PTC to purchase games!</small>
+        </h1>
+        
+        <!-- Page Content -->
+        <div class="container">
+        
+            <div class="row">
+        
+                <div class="col-lg-3 bg-dark">
+        
+                    <h1 class="my-4">PlayTable Games</h1>
+                    <div class="col">
+                        <h3 id="ptcBalance"></h3>
+        
+                        <h3 id="game"></h3>
+        
+        
+                        <h3 id="purchaseAmount"></h3>
+                    </div>
+        
+                </div>
+                <!-- /.col-lg-3 -->
+        
+                <div class="col-lg-9">
+        
+                    <div class="row text-center">
+        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100" style="color: #3cc7f3;">
+                                <h3 class="text-center">$1,000,000</h3>
+                                <img class="card-img-top" src="/images/reload_01.png" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Game Title
+                                    </h4>
+                                    <h5
+                                        style="color: white; background-color: #3cc7f3; border: 1px solid #3cc7f3; border-radius: 12px;">
+                                        1,000,000 PTC</h5>
+                                </div>
+        
+        
+                                <button href="#" class="btn btn-primary" id="buyGameButton">Buy Now</button>
+        
+                            </div>
+        
+        
+                        </div>
+                    </div>
+        
+                    <div class="container text-center mt-4">
+                        <div class="row">
+                            <div class="card m-1" style="color: #3cc7f3; width: 10vw;">
+                                <div class="card-body">
+                                    <h3 class="card-title m-0">Auto Reload</h3>
+                                    <h6 class="text-danger">CURRENTLY NOT FUNCTIONAL</h6>
+                                    <img class="card-img-top m-0" src="/images/auto_load.png" alt="Card image cap">
+                                    <h4 class="card-title m-0 py-1" id="autoAmount"
+                                        style="color: white; background-color: #3cc7f3; border: 1px solid #3cc7f3; border-radius: 12px;">
+                                        999 PTC</h4>
+                                    <div class="form-check">
+                                        <!--<input class="test form-check-input" type="radio" name="radioButton" id="test" value="{{this.value}}">-->
+                                        <label class="form-check-label" for="">
+                                        </label>
+                                    </div>
+                                </div>
+        
+                                <button id="tokenButton" class="btn btn-success btn-lg mb-2" type="submit">Buy Now</button>
+        
+        
+                            </div>
+        
+                        </div>
+                    </div>
+                    <!-- /.row -->
+        
+                </div>
+                <!-- /.col-lg-9 -->
+        
+            </div>
+            <!-- /.row -->
+        
+        </div>
+        <!-- /.container -->
+<script type="text/javascript" src="/tokens-bundle.js"></script></body>
+</html>
